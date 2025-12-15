@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(246, 228, 237);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.app {
+    background-color: rgb(232, 32, 132);
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.header {
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.content .game {
+    width: 400px;
+    height: 400px;
+    background-color: rgb(246, 207, 226);
+    border: 1px solid rgb(151, 27, 91);
+    position: relative;
+    border-radius: 5px;
+}
+
+.content .btn {
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 2px 4px 4px rgba(67, 67, 69, 0.227);
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.footer input {
+    padding: 4px 10px;
+    outline: 0;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 4px 4px rgba(67, 67, 69, 0.227);
+}
